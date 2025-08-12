@@ -4,3 +4,6 @@ def addnum(a,b):
 def subtractnum(a,b):
     print(a-b)
     retrun a - b
+
+def subnum(a,b):
+    return a - b
