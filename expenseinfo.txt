@@ -1,3 +1,4 @@
 expid,expname,expdate,expamt
 EX01,Travel,2025-08-10,2000
 Ex02,Groceries,2025-08-10,1200
+Ex03,Provisions,2025-08-11,2500
