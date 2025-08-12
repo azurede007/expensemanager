@@ -1,0 +1,76 @@
+
+csv
+json
+xml
+yaml
+tabular
+
+tablular:
+empid:int
+empname:string
+empdes:string
+city:string
+
+empid - 1001
+empname - srini
+empdes - software engineer
+city - chennai
+
+empid - 1002
+empname - irfan
+empdes - software engineer
+city - mumbai
+
+
+
+csv:
+1001#srini#softwaer engineer#city
+1002#irfan#sofrware engineer#mumbai
+
+
+xml:
+<emp>
+	<empid>1001</empid>
+	<empname>srini</empname>
+	<empdes>software engineer</empdes>
+	<city>chennai</city>
+</emp>
+<emp>
+	<empid>1002</empid>
+	<empname>irfan</empname>
+	<empdes>software engineer</empdes>
+	<city>mumbai</city>
+</emp>
+
+json:
+
+{
+	{
+		"empid": 1001,
+		"empname": "srini",
+		"empdes": "software engineer",
+		"city": "chennai"
+	},
+		{
+		"empid": 1002,
+		"empname": "irfan",
+		"empdes": "software engineer",
+		"city": "mumbai"
+	}
+}
+
+yaml:
+emp
+ empid
+  - 1001
+ empname
+  - srini
+  empdes
+  - software engineer
+  emp
+  - chennai
+emp
+-1002
+-irfan
+=software engineer
+-chennai
